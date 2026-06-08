@@ -168,3 +168,28 @@ footer {
     width: 92%;
   }
 }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .hero h2{
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+    padding: 0 15px;
+  }
+  .card {
+    width: 90%;
+    margin: auto;
+  }
+  input, textarea {
+    width: 100%
+  }
+}
